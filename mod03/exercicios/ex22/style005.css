@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'cloister';
+    src: url(/mod03/exercicios/ex22/fonts/cloister_black/);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fontCloisterBlack: 'cloister';
+}
+
+body {
+    height: 98vh;
+    background-image: url(/mod03/exercicios/ex22/img/wallpaper003.jpg);
+    background-repeat: no-repeat;
+    /*background-position: top center;*/
+    /*background-position: right top;*/
+    /*background-position: right center;*/
+    /*background-position: right bottom;*/
+    /*background-position: bottom center;*/
+    /*background-position: left bottom;*/
+    /*background-position: left center;*/
+    background-position: left top;
+}

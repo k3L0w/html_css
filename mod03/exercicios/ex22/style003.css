@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'cloister';
+    src: url(/mod03/exercicios/ex22/fonts/cloister_black/CloisterBlack.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(/mod03/exercicios/ex22/img/full-moon-night-time-roadway-calm-landscape-flat-digital-1024x768-6722.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.bloco {
+    background-image: url(/mod03/exercicios/ex22/img/wallpaper003.jpg);
+    height: 180px;
+    width: 1280px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 17px;
+}
+
+div#q1 {
+    background-position: left top;
+}
+
+div#q2 {
+    background-position: left center;
+}
+
+div#q3 {
+    background-position: right bottom;
+}
+
+div#q4 {
+    background-position: center center;
+}
+
+div#q5 {
+    background-image: url(/mod03/exercicios/ex22/img/pattern001.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+}

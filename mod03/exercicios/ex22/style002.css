@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'cloister';
+    src: url(/mod03/exercicios/ex22/fonts/cloister_black/CloisterBlack.ttf);
+}
+
+:root {
+    --fontCloisterBlack: 'cloister';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/mod03/exercicios/ex22/img/praia-de-pernambuco-guaruja-naturam-7.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,18 +1,27 @@
-
+@font-face {
+    font-family: 'cloister_black';
+    src: url(/mod03/exercicios/ex22/fonts/cloister_black/CloisterBlack.ttf);
+}
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
+:root {
+    --font-medieval1: 'cloister_black'
+}
+
 body {
-    background-color: brown;
+    background-image: url(/mod03/exercicios/ex22/img/dark-background1-1024x768-8324.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
     width: auto;
     height: 40px;
-    background-color: rgba(238, 203, 161, 0.205);
+    background-color: rgb(95, 77, 77);
     margin-bottom: 20px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -27,11 +36,14 @@ header {
 
 nav {
     display: inline-block;
+    color: white;
 }
 
 nav>p {
+    font-family: var(--font-medieval1);
     display: inline-block;
     margin-left: 30px;
+    font-size: 23px;
 }
 
 div.quadrado {
@@ -46,7 +58,6 @@ div.quadrado {
 /*background-color*/
 div#q1 {
     background-color: rgb(18, 155, 98);
-
 }
 
 /*linear-gradient*/
