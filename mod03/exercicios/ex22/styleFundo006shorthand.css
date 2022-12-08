@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'cloister';
+    src: url(/mod03/exercicios/ex22/fonts/cloister_black/CloisterBlack.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fontManu: 'cloister';
+}
+
+body {
+
+    /*
+    shorthand - background
+    color > image > position > repeat > [size] > attachment
+    */
+    background: black url("/mod03/exercicios/ex22/img/bg_darkTheme4.jpg") center center fixed;
+    background-size: cover;
+    /*cover nao aceito neste no shorthand*/
+}
+
+main {
+    background-color: azure;
+    width: 700px;
+    border-radius: 17px;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+    font-family: var(--fontManu);
+    font-size: 23px;
+}
