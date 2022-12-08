@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'australia-custom';
+    src: url(/mod03/exercicios/ex22/fonts/australi_custom1/Australia\ Custom.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(/mod03/exercicios/ex22/img/bg_darkTheme4.jpg);
+    background-repeat: no-repeat;
+    background-size: ;
+    background-position: center center;
+    background-color: black;
+    font-family: 'australia-custom';
+    font-size: 22px;
+    height: 100vh;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    border-radius: 0px 0px 17px 17px;
+    padding: 15px;
+    width: 600px;
+    border: 0.1px solid black;
+    opacity: 0.8;
+}
