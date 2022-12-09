@@ -1,0 +1,32 @@
+* {
+    width: 0px;
+    height: 0px;
+}
+
+#container {
+    position: relative;
+    background-image: url(/mod03/exercicios/ex22/img/target001.png);
+    background-size: 100% 100%;
+    background-color: burlywood;
+    height: 500px;
+    width: 700px;
+    padding: 15px;
+}
+
+#conteudo {
+    background-image: url(/mod03/exercicios/ex22/img/target001.png);
+    background-size: 100% 100%;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+
+    /*margin: auto;
+    /*centraliza hotizontalmente*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+}
