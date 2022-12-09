@@ -3,8 +3,14 @@
     src: url(/mod03/desafios/d012/fonts/8th_cargo/8th\ Cargo.ttf);
 }
 
+@font-face {
+    font-family: 'retro_signature';
+    src: url(/mod03/desafios/d012/fonts/retro_signature/RetroSignature.otf);
+}
+
 :root {
     --fontTecho: '8th-cargo';
+    --fontManuscrita: 'retro_signature';
 }
 
 * {
@@ -45,6 +51,39 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.1em;
+    padding-left: 30px;
+    font-family: var(--fontManuscrita);
+    font-size: 70px;
+}
+
+section.normal {
+    background-color: white;
+    color: black
+}
+
+section.imagem {
+    background-color: black;
+    color: darkgray
+}
+
+section.imagem>p {
+    width: 700px;
+    background-color: rgba(41, 15, 15, 0.575);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+
+/*rodape*/
 footer {
     background-color: rgb(20, 20, 53);
     background-image: url(/mod03/desafios/d012/img/bg-dark1.jpg);
