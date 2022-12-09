@@ -1,6 +1,60 @@
-@charset "UTF-8";
+@font-face {
+    font-family: '8th-cargo';
+    src: url(/mod03/desafios/d012/fonts/8th_cargo/8th\ Cargo.ttf);
+}
 
+:root {
+    --fontTecho: '8th-cargo';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
 body {
-    background-color: #805500;
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-image: url(/mod03/desafios/d012/img/bg-dark1.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
+    text-align: center;
+    font-family: var(--fontTecho);
+    font-size: 27px;
+}
+
+header>h1 {
+    padding-top: 50px;
+    /*text-transform: uppercase;*/
+    font-variant: small-caps;
+}
+
+header>p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(20, 20, 53);
+    background-image: url(/mod03/desafios/d012/img/bg-dark1.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: var(--fontTecho);
+
 }
