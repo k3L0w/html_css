@@ -61,12 +61,13 @@ section {
     line-height: 1.1em;
     padding-left: 30px;
     font-family: var(--fontManuscrita);
-    font-size: 70px;
+    font-size: 80px;
 }
 
 section.normal {
     background-color: white;
-    color: black
+    color: black;
+    text-align: center;
 }
 
 section.imagem {
@@ -80,7 +81,6 @@ section.imagem>p {
     border-radius: 15px;
     padding: 20px;
 }
-
 
 
 /*rodape*/
