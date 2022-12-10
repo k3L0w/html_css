@@ -61,7 +61,7 @@ section {
     line-height: 1.1em;
     padding-left: 30px;
     font-family: var(--fontManuscrita);
-    font-size: 9vw;
+    font-size: 7vw;
 }
 
 section.normal {
@@ -72,7 +72,10 @@ section.normal {
 
 section.imagem {
     background-color: black;
-    color: darkgray
+    color: darkgray;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.555);
+    background-attachment: fixed;
+    /*efeito parallax*/
 }
 
 section.imagem>p {
@@ -107,7 +110,8 @@ footer {
     background-size: cover;
     color: white;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: var(--fontTecho);
+    font-size: 4em;
 }
