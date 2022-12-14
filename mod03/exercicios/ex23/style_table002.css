@@ -18,6 +18,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    width: auto;
+    /*responsive*/
 }
 
 header {
@@ -29,12 +31,15 @@ header {
 
 h1 {
     padding-top: 20px;
-    text-align: center;
     color: white;
+    text-transform: uppercase;
     text-shadow: 3px 3px 3px black;
+    text-align: center;
 }
 
 h2 {
+    color: green;
+    text-transform: capitalize;
     text-align: center;
 }
 
@@ -43,16 +48,19 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 table {
+    background-color: #03bf2649;
     margin: auto;
-    border: 1px solid black;
-    width: 1000px;
+    width: auto;
 }
 
 th {
-    background-color: #060045;
+    /*background-color: #060045;*/
+    background-color: #1c4500;
     padding: 10px;
     color: white;
     text-align: center;
