@@ -5,102 +5,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table 002 - Largura e altura</title>
+    <title>Talela 002 - Semantica</title>
+    <link rel="stylesheet" href="style_table002.css">
 </head>
 
-<style>
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-
-    h1 {
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        color: black;
-    }
-
-    body {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
-        background-color: rgba(3, 3, 3, 0.37);
-
-    }
-
-    table {
-        background-color: black;
-        border: 3px solid white;
-        color: white;
-        width: 400px;
-        height: 300px;
-        border-collapse: collapse;
-        margin: auto;
-    }
-
-    td {
-        border: 1px solid white;
-        padding: 12px;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    td:hover {
-        background-color: brown;
-        color: white;
-        transform: 1s;
-        cursor: pointer;
-        font-weight: bold;
-    }
-
-    .row2,
-    .row4 {
-        background-color: rgb(85, 74, 59);
-    }
-
-    .C4 {
-        font-weight: bold;
-        color: white;
-        text-align: center;
-        vertical-align: middle;
-    }
-</style>
-
 <body>
+    <header>MENUS</header>
+    <h1>Lista de unidades federativas do Brasil por população</h1>
+    <h2>fonte: <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o"
+            target="_blank">Wikipedia</a></h2>
 
     <main>
-        <h1>Minha segunda tabela</h1>
-        <!--
-            HIERARQUIA DE TABELAS (SIMPLES)
-            TABLE = tabela
-                TABLE ROW = Linha de tabela <tr>
-                    TABLE HEADER = cabecalho de tabela <th>
-                    TABLE DATA = dado de tabela <tr>
-        -->
+
         <table>
-            <tr class="row1"><!--line1-->
-                <td class="A1">A1</td>
-                <td class="B1">B1</td>
-                <td class="C1">C1</td>
-            </tr>
-            <tr class="row2"><!--line2-->
-                <td class="A2">A2</td>
-                <td class="B2">B2</td>
-                <td class="C2">C2</td>
-            </tr>
-            <tr class="row3"><!--line3-->
-                <td class="A3">A3</td>
-                <td class="B3">B3</td>
-                <td class="C3">C3</td>
-            </tr>
-            <tr class="row4"><!--line4-->
-                <td class="A4">A4</td>
-                <td class="B4">B4</td>
-                <td class="C4">C4</td>
-            </tr>
+
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Unidade Federativa</th>
+                    <th>População (2010)</th>
+                    <th>População (2021</th>
+                    <th>Mudança</th>
+                    <th>% da População total</th>
+                    <th>País comparável</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>São Paulo</td>
+                    <td>41 262 199 </td>
+                    <td>46 649 132</td>
+                    <td>+13.05%</td>
+                    <td>21,9% </td>
+                    <td>Espanha (46 439 864) </td>
+
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
+
         </table>
 
+
+
+
+
+
+
+
+
+
+
+
     </main>
+
+    <footer>
+        <p class="created">Created by: <a href="https://github.com/k3L0w">Antonio Pereira</a></p>
+        <p class="foto">Foto por: <a
+                href="https://pt.pngtree.com/freebackground/summer-colorful-music-festival-posters_856505.html"
+                target="_blank">pt.pngtree.com</a>
+        </p>
+    </footer>
+
+
+
+
 
 
 </body>

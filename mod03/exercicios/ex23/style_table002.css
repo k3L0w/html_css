@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'myriadPRO';
+    src: url(/mod03/exercicios/ex23/fonts/myriad-pro-regular.OTF);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fontAPPLE: 'myriadPRO';
+}
+
+body {
+    font-family: var(--fontAPPLE);
+}
+
+header {
+    text-align: center;
+    background-color: #F39401;
+    height: 7vh;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    background-image: url(/mod03/exercicios/ex23/img/bg-brazil_colors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+
+}
+
+table {
+    margin-top: 50px;
+    margin: auto;
+    border: 1px solid black;
+    width: 1000px;
+}
+
+th {
+    background-color: #060045;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td {
+    text-align: center;
+}
+
+footer {
+    background-color: #060045;
+    height: 10vh;
+}
+
+.created {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.foto {
+    color: white;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: #03BF27;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
