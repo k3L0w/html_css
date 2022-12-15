@@ -59,6 +59,14 @@ table {
     background-color: #03bf2649;
     margin: auto;
     width: auto;
+    position: relative;
+    /*PASO1:para efeito de colagem(sticky) do cabecalho*/
+}
+
+thead>tr>th {
+    position: sticky;
+    top: 0px;
+    background-color: #383838;
 }
 
 th {
@@ -72,6 +80,10 @@ th {
 
 td {
     text-align: center;
+}
+
+tbody>tr:nth-child(2n) {
+    background-color: rgba(211, 211, 211, 0.61);
 }
 
 footer {
@@ -125,4 +137,11 @@ td {
 .midias {
     text-align: center;
     color: white;
+}
+
+.lorem {
+    margin-top: 14px;
+    margin: 80px;
+    text-align: justify;
+    text-indent: 28px;
 }
