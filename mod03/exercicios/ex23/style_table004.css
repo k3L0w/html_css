@@ -5,8 +5,7 @@
 
 @font-face {
     font-family: 'myriadPRO';
-    src: url(/mod03/exercicios/ex23/fonts/myriad-pro-regular.OTF
-
+    src: url(/mod03/exercicios/ex23/fonts/myriad-pro-regular.OTF);
 }
 
 :root {
@@ -15,23 +14,23 @@
 
 body {
     font-family: var(--fontAplle);
-    background-color: aliceblue;
-
+    background-color: black;
+    background-image: url(/mod03/exercicios/ex23/img/bg-cinema6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
     height: 92vh;
 }
 
-
 table {
-    border: 2px solid white;
-    background-color: #1A212A;
+    border: 0px solid white;
+    background-color: #1a212a73;
     border-collapse: collapse;
     margin: auto;
     color: white;
     font-size: 0.9em;
-
 }
 
 th,
@@ -41,7 +40,7 @@ td {
 }
 
 h1 {
-    color: black;
+    color: white;
     text-align: center;
     font-size: 1.5em;
     margin-top: 15px;
