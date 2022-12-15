@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'myriadPRO';
+    src: url(/mod03/desafios/d013/font/myriad-pro-regular.OTF);
+}
+
+:root {
+    --fontApple: 'myriadPRO';
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
