@@ -99,3 +99,17 @@ a:hover {
     font-weight: bold;
     color: white;
 }
+
+.num {
+    text-align: right;
+}
+
+td {
+    padding: 5px;
+}
+
+#total {
+    background-color: #1c4500;
+    color: white;
+
+}
