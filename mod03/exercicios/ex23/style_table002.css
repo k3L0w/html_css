@@ -29,14 +29,6 @@ header {
 
 }
 
-h1 {
-    padding-top: 20px;
-    color: white;
-    text-transform: uppercase;
-    text-shadow: 3px 3px 3px black;
-    text-align: center;
-}
-
 h2 {
     color: green;
     text-transform: capitalize;
@@ -50,6 +42,17 @@ main {
     background-attachment: fixed;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+caption {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    font-size: 2em;
+
 }
 
 table {
@@ -73,7 +76,7 @@ td {
 
 footer {
     background-color: #060045;
-    height: 10vh;
+    height: 20vh;
     border-top: 20px;
 }
 
@@ -87,6 +90,11 @@ footer {
     color: white;
     text-align: center;
 
+}
+
+.fonte {
+    color: white;
+    text-align: center;
 }
 
 a {
@@ -112,4 +120,9 @@ td {
     background-color: #1c4500;
     color: white;
 
+}
+
+.midias {
+    text-align: center;
+    color: white;
 }
