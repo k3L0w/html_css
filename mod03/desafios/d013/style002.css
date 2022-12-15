@@ -12,10 +12,24 @@
     --fontApple: 'myriadPRO';
 }
 
+body {
+    font-family: var(--fontApple);
+}
+
 table {
     border: 1px solid black;
+    border-collapse: collapse;
+    width: 400px;
+    height: 100px;
+    margin: auto;
 }
 
 td {
     border: 1px solid black;
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-align: center;
 }

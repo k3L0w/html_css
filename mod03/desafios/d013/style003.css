@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'myriadPRO';
+    src: url(/mod03/desafios/d013/font/myriad-pro-regular.OTF);
+}
+
+:root {
+    --fontAplle: 'myriadPRO';
+}
+
+body {
+    font-family: var(--fontAplle);
+    background-image: url(/mod03/exercicios/ex23/img/bg-cinema3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main {
+    height: 92vh;
+}
+
+
+table {
+    border: 2px solid white;
+    background-color: #1A212A;
+    border-collapse: collapse;
+    margin: auto;
+    color: white;
+    font-size: 0.9em;
+
+}
+
+th,
+td {
+    border: 0.1px solid white;
+    padding: 7px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+p {
+    margin: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer {
+    height: 8vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
