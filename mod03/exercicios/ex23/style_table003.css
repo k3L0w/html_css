@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fontApple: 'myriadPRO';
+}
+
+body {
+    font-family: var(--fontApple);
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px solid black;
+    padding: 7px;
+    text-align: center;
+}
