@@ -78,6 +78,9 @@ a:hover {
 .title_table:hover {
     font-weight: bolder;
     border-left: 1px solid white;
+    background-color: white;
+    color: #0d0b11;
+    opacity: 0.5;
 }
 
 .woman {
@@ -102,6 +105,12 @@ a:hover {
     font-weight: bolder;
     border-left: 1px solid white;
     transition: 1s;
+}
+
+.man {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
 }
 
 .man:hover {
