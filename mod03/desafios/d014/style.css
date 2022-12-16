@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'myriadPRO';
+    src: url(/mod03/desafios/d014/fonts/myriad-pro-regular.OTF);
+}
+
+:root {
+    --fontmyriadPRO: 'myriadPRO';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fontmyriadPRO);
+    font-size: 1.5em;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+th {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+th {
+    background-color: lightgray;
+}
+
+.media-exatas {
+    background-color: lightgray;
+}
+
+.media-humanas {
+    background-color: lightgray;
+}
