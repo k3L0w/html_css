@@ -8,16 +8,23 @@
     src: url(/mod03/exercicios/ex23/fonts/myriad-pro-regular.OTF);
 }
 
+@font-face {
+    font-family: 'insanibuck';
+    src: url(/mod03/exercicios/ex23/fonts/insaniburger/Insanibc.ttf);
+}
+
 :root {
     --fontAplle: 'myriadPRO';
+    --fontInsanibuck: 'insanibuck';
 }
 
 body {
-    font-family: var(--fontAplle);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
-    background-image: url(/mod03/exercicios/ex23/img/bg-cinema6.jpeg);
+    background-image: url(/mod03/exercicios/ex23/img/bg-InterfaceLIFT1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
@@ -25,17 +32,17 @@ main {
 }
 
 table {
-    border: 0px solid white;
-    background-color: #1a212a73;
+    /*border: 0px solid white;*/
+    background-color: #322840;
     border-collapse: collapse;
     margin: auto;
     color: white;
     font-size: 0.9em;
+    text-align: center;
 }
 
-th,
-td {
-    border: 0.1px solid white;
+th {
+    /*border: 0px solid white;*/
     padding: 7px;
 }
 
@@ -45,14 +52,12 @@ h1 {
     font-size: 1.5em;
     margin-top: 15px;
     margin-bottom: 15px;
-
 }
 
 p {
     margin: 10px;
     color: white;
     text-align: center;
-
 }
 
 a {
@@ -62,12 +67,65 @@ a {
 
 a:hover {
     cursor: pointer;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 3px black;
+}
+
+.title_table {
+    background-color: #0d0b11;
+    text-transform: uppercase;
+}
+
+.title_table:hover {
+    font-weight: bolder;
+    border-left: 1px solid white;
+}
+
+.woman {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+.woman:hover {
+    background-color: #bb6569;
+    font-weight: bolder;
+    border-left: 1px solid white;
+    transition: 1s;
+}
+
+.women {
+    padding: 20px;
+}
+
+.women:hover {
+    background-color: #bb6569;
+    font-weight: bolder;
+    border-left: 1px solid white;
+    transition: 1s;
+}
+
+.man:hover {
+    background-color: #27357e;
+    font-weight: bolder;
+    border-left: 1px solid white;
+    transition: 1s;
+}
+
+.men {
+    padding: 20px;
+}
+
+
+.men:hover {
+    background-color: #27357e;
+    font-weight: bolder;
+    border-left: 1px solid white;
+    transition: 1s;
 }
 
 footer {
     height: 8vh;
-    background-color: black;
+    background-color: #0d0b1160;
     color: white;
     text-align: center;
     margin: auto;
