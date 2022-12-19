@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'myriadPRO';
+    src: url(/mod03/exercicios/ex23/fonts/myriad-pro-regular.OTF);
+}
+
+:root {
+    --fontMyriadPRO: 'myriadPRO';
+}
+
+body {
+    font-family: var(--fontMyriadPRO);
+}
+
+caption {
+    color: white;
+    background-color: #323232;
+}
+
+table {
+    background-color: #323232;
+    color: white;
+    padding: 12px;
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.349);
+    border-radius: 7px;
+}
+
+col.cnome {
+    background-color: #323232;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    background-color: #187EE5;
+}
+
+th:hover {
+    background-color: #0e71d4;
+    font-weight: bolder;
+}
+
+td {
+    background-color: #E1DED5;
+    color: black;
+}
+
+td:hover {
+    font-weight: bolder;
+    background-color: #b1aa95;
+    color: white;
+}
