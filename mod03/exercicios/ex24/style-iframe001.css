@@ -2,4 +2,13 @@ iframe {
     width: 400px;
     height: 400px;
     border: 7px solid red
-}s
+}
+
+error {
+    color: red;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
