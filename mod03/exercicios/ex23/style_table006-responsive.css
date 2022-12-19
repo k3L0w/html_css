@@ -62,3 +62,7 @@ td:hover {
     background-color: #b1aa95;
     color: white;
 }
+
+div#container {
+    overflow-x: auto;
+}
