@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page005 - JS</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-image: url(/mod03/exercicios/ex24/img/macos-monterey-wwdc-21-stock-dark-mode-5k-2560x1080-5585.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            color: white;
+        }
+
+        header {
+            background-color: #252525;
+            height: 10vh;
+            margin: auto;
+        }
+
+        main {
+            height: 80vh;
+            margin: auto;
+        }
+
+        footer {
+            background-color: #252525;
+            height: 10vh;
+            text-align: center;
+            margin: auto;
+        }
+
+        a {
+            color: coral;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+<header>
+</header>
+
+<main>
+
+    <body>
+        <a href="#" onclick="clicou()">Clique aqui...</a>
+        <div id="saida"></div>
+
+
+        <script>
+            function clicou() {
+                s = window.document.getElementById("saida")
+                s.innerHTML += '<p> Você clicou!</p>'
+            }
+
+        </script>
+
+    </body>
+</main>
+<footer>
+    <p>created by: Pereira, com base nas aulas do Professor Guanabara</p>
+    <p>foto por: <a
+            href="https://4kwallpapers.com/gradients/macos-monterey-wwdc-21-stock-dark-mode-5k-5585.html">4kwallpapers.com</a>
+    </p>
+</footer>
+
+
+
+
+</html>
