@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario01</title>
+    <style>
+        :root {
+            --fontApple: 'myriadPRO';
+            src: url(/mod04/exercicios/ex025/fonts/myriad-pro-regular.OTF);
+        }
+
+        * {
+            font-family: var(--fontApple);
+        }
+
+        body {
+            background-image: url(/mod04/exercicios/ex025/imgs/bg-rede.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        h1,
+        p {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FORMULARIO 01</h1>
+    <form>
+        <p>Nome <input type="text" name="nome" id="nome"></p>
+        <p>Sobrenome <input type="text" name="sobrenome" id="sobrenome"></p>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
