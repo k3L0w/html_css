@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario002</title>
+    <style>
+        input {
+            border-radius: 4px;
+        }
+
+        body {
+            background-image: url(/mod04/exercicios/ex025/imgs/bg-monterey-purp.jpg);
+        }
+
+        h1,
+        p {
+            color: wheat
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FORMULARIO002</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusuario">Usuário: </label>
+            <input type="text" name="nome" id="iusuario" required>
+        </p>
+        <p>
+            <label for="isenha">Senha: </label>
+            <input type="password" name="senha" id="isenha" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+
+</body>
+
+</html>
