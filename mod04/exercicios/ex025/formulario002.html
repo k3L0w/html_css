@@ -27,11 +27,12 @@
     <form action="cadastro.php" method="post">
         <p>
             <label for="iusuario">Usuário: </label>
-            <input type="text" name="nome" id="iusuario" required>
+            <input type="text" name="nome" id="iusuario" required minlength="3" maxlength="15" size="17"
+                placeholder="Insira um nome válido">
         </p>
         <p>
             <label for="isenha">Senha: </label>
-            <input type="password" name="senha" id="isenha" required>
+            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="15" size="17">
         </p>
         <p>
             <input type="submit" value="Enviar">
