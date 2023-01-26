@@ -24,15 +24,16 @@
 
 <body>
     <h1>FORMULARIO002</h1>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iusuario">Usuário: </label>
             <input type="text" name="nome" id="iusuario" required minlength="3" maxlength="15" size="17"
-                placeholder="Insira um nome válido">
+                placeholder="Insira um nome válido" autocomplete="username">
         </p>
         <p>
             <label for="isenha">Senha: </label>
-            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="15" size="17">
+            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="15" size="17"
+                placeholder="Insira uma senha válida" autocomplete="current-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
