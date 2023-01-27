@@ -35,6 +35,8 @@
     <h2>Alunos</h2>
 
     <form action="cadastro.js" method="get" autocomplete="on">
+
+        <!-- controle caixa de texto -->
         <p>
             <label for="inome">Nome: </label>
             <input type="text" name="nome" id="inome" minlength="3" maxlength="15" size="17" autocomplete="name"
@@ -42,22 +44,32 @@
         </p>
 
         <!-- novos controles -->
-        <!-- nomber -->
+
+        <!-- média da avaliação -->
         <p>
             <label for="imedia">Média: </label>
             <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" required>
         </p>
 
-        <!-- month -->
+        <!-- período letivo -->
         <p>
             <label for="imes">Período letivo: </label>
-            <input type="month" name="mes" id="imes">
+            <input type="month" name="mes" id="imes" value="2023-01"> <!-- value (sempre feito em JS)-->
         </p>
 
+        <!-- dia da avaliação -->
+        <p>
+            <label for="idia">Dia: </label>
+            <input type="date" name="dia" id="idia" value="2023-01-28"> <!-- value (sempre feito em JS)-->
+        </p>
 
+        <!-- horário da avaliação -->
+        <p>
+            <label for="ihora">Horário da avaliação: </label>
+            <input type="time" name="hora" id="ihora">
+        </p>
 
-        <br>
-        <hr>
+        <hr> <!-- quebra de linha horizontal-->
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar formulário">
     </form>
