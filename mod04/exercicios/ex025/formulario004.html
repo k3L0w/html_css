@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#9745Form_004 </title>
+    <link rel="shortcut icon" href="/mod04/exercicios/ex025/icons/form1.png" type="image/x-icon">
+    <style>
+        body {
+            background-image: url(/mod04/exercicios/ex025/imgs/bg-lines.jpeg);
+            background-attachment: fixed;
+            background-size: cover;
+            color: white;
+
+        }
+
+
+        input {
+            border-radius: 7px;
+            padding: 7px;
+        }
+
+        input:hover {
+            box-shadow: 1px 1px 7px black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Formulario: 004</h1>
+    <hr>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <p>
+            <label for="iemail">E-mail: </label>
+            <input type="email" name="e-mail" id="iemail" required size="50">
+        </p>
+        <hr>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar dados">
+
+    </form>
+
+</body>
+
+</html>
