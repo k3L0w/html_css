@@ -13,9 +13,7 @@
             background-attachment: fixed;
             background-size: cover;
             color: white;
-
         }
-
 
         input {
             border-radius: 7px;
@@ -25,19 +23,39 @@
         input:hover {
             box-shadow: 1px 1px 7px black;
         }
+
+        fieldset {
+            background-color: rgba(0, 0, 0, 0.671);
+            border-radius: 7px;
+        }
     </style>
 
 </head>
 
 <body>
     <h1>Formulario: 004</h1>
-    <hr>
+
     <form action="cadastro.js" method="get" autocomplete="on">
-        <p>
-            <label for="iemail">E-mail: </label>
-            <input type="email" name="e-mail" id="iemail" required size="50">
-        </p>
-        <hr>
+        <fieldset>
+            <legend> Dados Pessoais </legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required minlength="5" maxlength="21" autocomplete="name"
+                    placeholder="nome completo">
+            </p>
+            <p>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="e-mail" id="iemail" required size="50" autocomplete="email"
+                    placeholder="exemplo@gmail.com">
+            </p>
+            <p>
+                <label for="itelephone">Telephone: </label>
+                <input type="tel" name="telephone" id="itelephone" required size="14" autocomplete="tel" minlength="9"
+                    maxlength="14" pattern="\([0-9]{2}\) [0-9]{4}-[0-9]{4}" placeholder="(xx) xxxx-xxxx">
+            </p> <!--considerar um estudo mais apurado em Regular Expression (RegEx)-->
+        </fieldset>
+        <br>
+
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar dados">
 
