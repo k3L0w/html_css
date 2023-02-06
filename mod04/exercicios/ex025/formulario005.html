@@ -12,6 +12,9 @@
         body {
             font-family: 'Abel', sans-serif;
             background-color: black;
+            background-image: url(/mod04/exercicios/ex025/imgs/bg-bmx.jpeg);
+            background-position: center;
+            background-size: cover;
         }
 
         h1 {
@@ -20,7 +23,7 @@
 
         fieldset {
             border-radius: 7px;
-            background-color: rgba(48, 57, 65, 0.534);
+            background-color: rgba(49, 65, 48, 0.76);
             color: white;
             padding: 17px;
         }
@@ -37,20 +40,47 @@
     <form action="cadastro.js" method="get" autocomplete="on">
         <fieldset>
             <legend>DADOS PESSOAIS</legend>
-
+            <!--controles do tipo text-->
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" autocomplete="on" placeholder="Seu nome completo" size="27">
+            </p>
+            <p>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="email" id="iemail" autocomplete="on" placeholder="example@gmail.com"
+                    size="27">
+            </p>
         </fieldset>
         <br>
+
+        <fieldset>
+            <legend>SEXO</legend>
+            <!--controles do tipo radio-->
+            <p><input type="radio" name="sexo" id="imasculino" value="M"><label for="imasculino"> Masculino </label>
+            </p>
+            <p><input type="radio" name="sexo" id="Feminino" value="F"><label for="ifeminino"> feminino </label></p>
+        </fieldset>
+        <br>
+
         <fieldset>
             <legend>ESPORTES</legend>
-            <input type="checkbox" name="ciclismo" id="iciclismo"> Ciclismo
-            <input type="checkbox" name="corrida" id="icorrida"> Corrida
-            <input type="checkbox" name="luta" id="itula"> Luta marcial
+            <!--controles do tipo checkbox-->
+            <p><input type="checkbox" name="futebol" id="ifutebol"><label for="ifutebol"> Futebol</label></p>
+            <p><input type="checkbox" name="ciclismo" id="iciclismo"> <label for="iciclismo"> Ciclismo</label></p>
+            <p><input type="checkbox" name="corrida" id="icorrida"> <label for="icorrida"> Corrida</label></p>
+            <p><input type="checkbox" name="luta" id="iluta"> <label for="iluta"> Luta marcial</label></p><br>
+            <p><input type="checkbox" name="newsletters" id="inewsletters" checked><label for="inewsletters">Desejo
+                    receber newsletters do(s) meu(s) esporte(s) favorito(s)</label></p>
         </fieldset>
 
         <P>
+            <!--controle do tipo submeter dados-->
             <input type="submit" value="Enviar dados">
+            <!--controle do tipo deletar dados-->
             <input type="reset" value="Limpar dados">
         </P>
+        <br>
+
     </form>
 
 </body>
