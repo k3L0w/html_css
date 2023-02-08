@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#125 Formulario: 006</title>
+    <link rel="shortcut icon" href="/mod04/exercicios/ex025/imgs/form1.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+        body {
+            background-image: url(/mod04/exercicios/ex025/imgs/bgPRO1.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            font-family: 'Roboto Condensed', sans-serif;
+
+        }
+
+        fieldset {
+            border-radius: 7px;
+            background-color: rgba(165, 42, 42, 0.349);
+        }
+
+        input {
+            border-radius: 7px;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    <h1>FORMULÁRIO: 006</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Controles</legend>
+            <p>
+                <label for="icolor">Cor</label>
+                <input type="color" name="color" id="icolor" value="#000000">
+            </p>
+
+            <p>
+                <label for="isatisfacao">Nível de satisfacao</label>
+                <input type="range" name="satisfacao" id="isatisfacao" value="2" min="1" max="10">
+            </p>
+
+            <p>
+                <label for="iarquivo">Selecionar arquivo </label>
+                <input type="file" name="arquivo" id="iarquivo">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+
+
+        </p>
+        <p>
+
+        </p>
+
+    </form>
+
+</body>
+
+</html>
