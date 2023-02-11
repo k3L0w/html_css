@@ -17,6 +17,7 @@
             <!--controle Menu de Opções-->
             <label for="iestado">Estado</label>
             <select name="estado" id="iestado">
+                <option value="">- - Escolha - -</option>
                 <optgroup label="Região Nordeste">
                     <option value="AL">Alagoas</option>
                     <option value="BA">Bahia</option>
@@ -28,7 +29,6 @@
                     <option value="RN">Rio Grande do Norte</option>
                     <option value="SE">Sergipe</option>
                 </optgroup>
-
                 <optgroup label="Região Norte">
                     <option value="AC">Acre</option>
                     <option value="AM">Amazonas</option>
@@ -38,33 +38,40 @@
                     <option value="PA">Pará</option>
                     <option value="TO">Tocantins</option>
                 </optgroup>
-
                 <optgroup label="Região Centro-Oeste">
                     <option value="GO">Goiás</option>
                     <option value="DF">Distrito Federal</option>
                     <option value="MT">Mato Grosso</option>
                     <option value="MS">Mato Grosso do Sul</option>
                 </optgroup>
-
-
-
                 <optgroup label="Região Sul">
                     <option value="SC">Santa Catarina</option>
                     <option value="PR">Paraná</option>
                     <option value="RS">Rio Grande do Sul</option>
                 </optgroup>
-
-
                 <optgroup label="Região Sudeste">
                     <option value="SP">São Paulo</option>
                     <option value="MG">Minas Gerais</option>
                     <option value="ES">Espírito Santo</option>
                     <option value="RJ">Rio de Janeiro</option>
                 </optgroup>
-
-
+                </optgroup>
             </select>
         </p>
+
+        <label for="iprofissao">Profissão</label>
+        <input type="text" name="profissao" id="iprofissao" list="lista_profissoes">
+        <datalist id="lista_profissoes">
+            <option value="REDES">Arquiteto de Redes</option>
+            <option value="DADOS">Ciência de Dados</option>
+            <option value="CIÊNCIA">Computação</option>
+            <option value="MOBILE">Desenvolvedor</option>
+            <option value="SOFTWARE">Engenheiro</option>
+            <option value="GESTAO">Tecnologia da Informação</option>
+            <option value="JOGOS">Digitais</option>
+            <option value="WEB">Desenvolvedor</option>
+        </datalist>
+
     </fieldset>
     <br>
     <form action="cadastro.js" method="get" autocomplete="on">
