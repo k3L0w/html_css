@@ -14,14 +14,20 @@
     <form action="cadastro.js" method="get" autocomplete="on">
         <p>
             <label for="iano_atual">Ano atual: </label>
-            <input type="number" name="ano_atual" id="iano_atual" min="1883" max="2023" required
-                placeholder="ano atual">
+            <input type="number" name="ano_atual" id="iano_atual" min="1883" max="2023" required placeholder="ano atual"
+                oninput="icalculaIdade.innerHTML = Number(iano_atual.value) + Number(iano_nascimento.value)">
         </p>
 
         <p>
             <label for="iano_nascimento">Ano nascimento: </label>
             <input type="number" name="ano_nascimento" id="iano_nascimento" min="1883" max="2005"
-                placeholder="nascimento" required>
+                placeholder="nascimento" required
+                oninput="icalcula_idade.innerHTML = Number(iano-atual) - Number(iano-nascimento)">
+        </p>
+
+        <p>
+            <label for="icalculaIdade"> Idade: </label>
+            <output name="calcula_idade" id="icalcula_idade">0</output>
         </p>
 
         <p>
