@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario: 008</title>
+</head>
+
+<body>
+    <h1>Formulario: 008</h1>
+
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <p>
+            <label for="iano_atual">Ano atual: </label>
+            <input type="number" name="ano_atual" id="iano_atual" min="1883" max="2023" required
+                placeholder="ano atual">
+        </p>
+
+        <p>
+            <label for="iano_nascimento">Ano nascimento: </label>
+            <input type="number" name="ano_nascimento" id="iano_nascimento" min="1883" max="2005"
+                placeholder="nascimento" required>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Deletar">
+        </p>
+    </form>
+
+
+</body>
+
+</html>
