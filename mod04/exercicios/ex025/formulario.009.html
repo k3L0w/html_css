@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario: 009 (range)</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        fieldset {
+            border-radius: 7px;
+            background-color: rgba(95, 158, 160, 0.582);
+        }
+
+        input {
+            border-radius: 7px;
+            padding: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend><strong>DADOS</strong></legend>
+        <form action="cadastro.js" method="post" autocomplete="on">
+            <p>
+                <label for="inumero">Número: </label><br>
+                <input type="range" name="numero" id="inumero" min="1" max="10" value="1"
+                    oninput="itotal_numero.innerHTML = Number(inumero.value)">
+                <output id="itotal_numero">1</output>
+
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
