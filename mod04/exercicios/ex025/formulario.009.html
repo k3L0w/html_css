@@ -7,31 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario: 009 (range)</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+
         body {
             background-color: black;
             color: white;
+            font-family: 'Alumni Sans', sans-serif;
+            font-size: 1.5em;
         }
 
         fieldset {
             border-radius: 7px;
             background-color: rgba(95, 158, 160, 0.582);
+            text-align: center;
+            width: 200px;
+            margin: auto;
         }
 
         input {
             border-radius: 7px;
             padding: 7px;
+            font-family: 'Alumni Sans', sans-serif;
+            font-size: 0.7em;
         }
     </style>
 </head>
 
 <body>
+    <h1>FORMULÁRIO: 009</h1>
     <fieldset>
         <legend><strong>DADOS</strong></legend>
         <form action="cadastro.js" method="post" autocomplete="on">
             <p>
                 <label for="inumero">Número: </label><br>
                 <input type="range" name="numero" id="inumero" min="1" max="10" value="1"
-                    oninput="itotal_numero.innerHTML = Number(inumero.value)">
+                    oninput="itotal_numero.innerHTML = Number(inumero.value)"><br>
                 <output id="itotal_numero">1</output>
 
             </p>
