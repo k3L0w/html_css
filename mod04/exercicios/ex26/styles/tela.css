@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* estilos tela */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    /* serif OFF*/
+    font-size: 1em;
+}
+
+
+body {
+    background-image: url(/mod04/exercicios/ex26/img/bg1-São\ Paulo\,\ Brazil.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #454545;
+
+    margin: auto;
+    color: white;
+}
+
+header>h1 {
+    text-align: center;
+    padding: 17px;
+}
+
+menu>ul {
+    list-style-type: none;
+    background-color: rgb(20, 22, 22);
+}
+
+menu>ul>li {
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    background-color: grey;
+}
+
+h2 {
+    margin: 17px;
+    text-align: center;
+
+}
+
+p {
+    text-align: justify;
+    margin: 17px;
+}
+
+article {
+    background-color: rgba(71, 60, 60, 0.733);
+    padding: 17px;
+    width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 0px 0px 17px 17px;
+    color: white;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* estilos impressora */
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    /* serif ON */
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+menu {
+    display: none;
+    /* menu não será exibido no modo impressão */
+}
+
+article::after {
+    content: 'Impresso por meio do site www.LASTNews.com';
+    width: 100%;
+
+}
