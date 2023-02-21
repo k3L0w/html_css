@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*estilos para dispositivos no modo retrato (portrait)*/
 * {
     margin: 0px;
     padding: 0px;
@@ -13,7 +14,8 @@ header {
 }
 
 main {
-    background-color: brown;
+    background-color: rgb(102, 27, 27);
     padding: 17px;
     text-align: justify;
+    color: black;
 }
