@@ -1,3 +1,47 @@
 @charset "UTF-8";
 
 /*estilos para todos os dispositivos no modo tela ou impressora*/
+
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    font-family: 'Aladin', cursive;
+    text-align: justify;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(/mod04/exercicios/ex26/media_queries002/img/bg-minimalistic_mountains.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+header {
+    padding: 17px;
+    background-color: black;
+
+}
+
+h1 {
+    color: white
+}
+
+main {
+    padding: 17px;
+}
+
+h2 {
+    padding: 17px;
+    color: white;
+}
+
+p {
+    padding: 17px;
+    color: whitesmoke
+}
