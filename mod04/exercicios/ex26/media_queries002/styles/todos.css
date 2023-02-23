@@ -18,14 +18,11 @@ body {
     background-image: url(/mod04/exercicios/ex26/media_queries002/img/bg-minimalistic_mountains.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-
 }
 
 header {
     padding: 17px;
     background-color: black;
-
 }
 
 h1 {

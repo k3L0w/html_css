@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /*estilos para dispositivos no modo paisagem (landscape) deitado*/
+
+main {
+    background-color: rgba(53, 27, 102, 0.5);
+    padding: 17px;
+    text-align: justify;
+    color: black;
+}

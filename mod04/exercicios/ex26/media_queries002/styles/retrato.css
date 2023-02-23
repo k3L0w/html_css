@@ -7,15 +7,26 @@
 }
 
 header {
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.5);
     color: white;
     padding: 17px;
     text-align: center;
 }
 
 main {
-    background-color: rgb(102, 27, 27);
+    background-color: rgb(102, 27, 27, 0.5);
     padding: 17px;
     text-align: justify;
     color: black;
+}
+
+html,
+body {
+    font-family: 'Aladin', cursive;
+    text-align: justify;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(/mod04/exercicios/ex26/media_queries002/img/bg-Minimal-blue_portrait.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
