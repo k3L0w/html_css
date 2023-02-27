@@ -1,20 +1,65 @@
 @charset "UTF-8";
 
 /*versao: mobile first*/
-
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1.3em;
+    box-sizing: border-box;
+}
+
+/*elimina barra de rolagem*/
+html {
+    /*width: 100vw;*/
+    height: 100vh;
 }
 
 body {
-    font-family: 'Tilt Neon', cursive;
-
+    background: black url(../img/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 main {
-    padding: 17px
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 17px;
+    padding: 17px;
+    width: 70vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.60);
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+img#phone {
+    display: block;
+}
+
+img#tablet {
+    display: none;
+}
+
+img#print {
+    display: none;
+}
+
+img#pc {
+    display: none;
+}
+
+img#tv {
+    display: none;
 }
