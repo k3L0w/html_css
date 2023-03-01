@@ -2,13 +2,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
-
 /*ALL medias (tablet, printer, desktop/notebook and TV)*/
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
-body {
-    font-family: 'Nunito Sans', sans-serif;
-}
+/* typical device breakpoints 
+- - - - - - - - - - - - - - -
+Common breakpoints are:
+-> 320px — 480px for mobile devices,
+-> 481px — 768px for iPads & tablets,
+-> 769px — 1024px for small screens like laptop,
+-> 1025px — 1200px for large screens like Desktops, and
+-> 1201px and above for extra large screens like TV
+- - - - - - - - - - - - - - -
+*/
+
+/* printers*/
+@media print {}
+
+/* mobile device */
+@media screen and (min-width: 320px) and (max-width: 480px) {}
+
+/* iPads & Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+
+/* laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+/* desktop */
+@media screen and (min-width: 1201px) {}
