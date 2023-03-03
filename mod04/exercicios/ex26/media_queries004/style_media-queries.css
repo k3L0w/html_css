@@ -18,7 +18,36 @@ Common breakpoints are:
 */
 
 /* printers*/
-@media print {}
+@media print {
+    body {
+        background-image: url(../img/back-print.jpg);
+        /*desnecessario*/
+    }
+
+    img {
+        display: none;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: block;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+}
 
 /* mobile device */
 @media screen and (min-width: 320px) and (max-width: 480px) {}
@@ -60,6 +89,10 @@ Common breakpoints are:
         background-image: url(../img/back-pc.jpg);
     }
 
+    main {
+        width: 600px;
+    }
+
     img {
         display: none;
     }
@@ -89,6 +122,10 @@ Common breakpoints are:
 @media screen and (min-width: 1025px) {
     body {
         background-image: url(../img/back-tv.jpg)
+    }
+
+    main {
+        width: 780px;
     }
 
     img {
