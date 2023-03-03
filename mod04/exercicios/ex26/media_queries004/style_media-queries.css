@@ -20,8 +20,27 @@ Common breakpoints are:
 /* printers*/
 @media print {
     body {
+        /* background-image é desnecessario*/
         background-image: url(../img/back-print.jpg);
-        /*desnecessario*/
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 2px solid black;
+        width: 90vw;
+    }
+
+    main>h1 {
+        text-shadow: none;
+        color: black
+    }
+
+    main::after {
+        content: 'Site impresso por www.desenvolvedorWEB.com.br'
     }
 
     img {
@@ -83,7 +102,7 @@ Common breakpoints are:
     }
 }
 
-/* laptop */
+/* laptop (PC) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     body {
         background-image: url(../img/back-pc.jpg);
