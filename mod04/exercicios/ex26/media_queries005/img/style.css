@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+
+body,
+html {
+    background-image: url(../img/sp1_aesthetic-desktop.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+header {
+    background-color: rgb(69, 69, 69);
+
+}
+
+header>h1 {
+    padding: 10px;
+    text-align: center;
+}
