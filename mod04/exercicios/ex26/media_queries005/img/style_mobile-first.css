@@ -10,7 +10,7 @@
 
 body,
 html {
-    background-image: url(../img/sp1_aesthetic-desktop.jpeg);
+    background-image: url(../img/citie_aesthetic-desktop.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ html {
 }
 
 header {
-    background-color: rgb(69, 69, 69);
+    background-color: rgba(69, 69, 69, 0.753);
 
 }
 
@@ -41,7 +41,29 @@ nav>ul>li>a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(41, 41, 53);
+    background-color: rgba(41, 41, 53, 0.774);
     color: white;
     text-align: center;
+}
+
+main {
+    width: 90vw;
+    background-color: rgba(255, 255, 255, 0.616);
+    margin: auto;
+    margin-top: 17px;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+article>h2 {
+    padding-bottom: 17px;
+    color: black;
+}
+
+article>p {
+    text-align: justify;
+    color: black;
+    margin-bottom: 17px;
+    text-indent: 17px;
+    /*tabulacao do paragrafo*/
 }
