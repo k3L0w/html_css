@@ -23,9 +23,9 @@
 <body>
     <header>
         <h1>Titulo site</h1>
-        <span class="material-symbols-outlined">menu</span>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickBurguer()">menu</span>
 
-        <nav>
+        <nav id="itens">
             <ul>
                 <li><a href="#">link1</a></li>
                 <li><a href="#">link2</a></li>
@@ -51,6 +51,16 @@
 
         </article>
     </main>
+    <script>
+        function clickBurguer() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+        }
+
+    </script>
 
 </body>
 

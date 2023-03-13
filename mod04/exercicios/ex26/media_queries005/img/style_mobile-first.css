@@ -29,8 +29,24 @@ header>h1 {
     text-align: center;
 }
 
-nav {
+
+#burguer {
+    background-color: rgb(43, 40, 40);
+    border-radius: 4px;
     display: block;
+    text-align: center;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: rgb(235, 221, 221);
+    color: black;
+}
+
+nav {
+    /*nav oculto, nao sera exibido*/
+    display: none;
 }
 
 nav>ul {
