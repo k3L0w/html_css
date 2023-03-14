@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+- - - - - - - - - - - - -
+TYPICAL BREAK POINTS 
+- - - - - - - - - - - - -
+pequenas telas: ~ 600px
+celular: 600px ate 768px
+tablet: 768 ate 992px
+desktop: 992 at[e 1200px
+grandes telas: 1200 ~ 
+- - - - - - - - - - - - -
+*/
+
+/*media features: tablet + desktop + grandes telas */
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav>ul>li {
+        display: inline-block;
+        border: 2px solid black;
+    }
+}
