@@ -24,6 +24,9 @@ grandes telas: 1200 ~
 
     nav>ul>li {
         display: inline-block;
-        border: 2px solid black;
+    }
+
+    main {
+        width: 768px;
     }
 }
